@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1380994D1639B0FA00867160 /* BonSoVipController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1380994B1639B0FA00867160 /* BonSoVipController.m */; };
+		1380994E1639B0FA00867160 /* BonSoVipController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1380994C1639B0FA00867160 /* BonSoVipController.xib */; };
+		138099531639B67F00867160 /* XienHaiSo.m in Sources */ = {isa = PBXBuildFile; fileRef = 138099511639B67F00867160 /* XienHaiSo.m */; };
+		138099541639B67F00867160 /* XienHaiSo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 138099521639B67F00867160 /* XienHaiSo.xib */; };
+		138099561639B9A100867160 /* Screen.Shot.2012.10.25.at.2.44.18.PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 138099551639B9A100867160 /* Screen.Shot.2012.10.25.at.2.44.18.PM.png */; };
+		138099581639BAB600867160 /* katheryn_thai_by_tylerlai-d3jra3s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 138099571639BAB600867160 /* katheryn_thai_by_tylerlai-d3jra3s.jpg */; };
+		1380995A1639BB1A00867160 /* harixngxtugma_by_superpalits-d4y5of0.png in Resources */ = {isa = PBXBuildFile; fileRef = 138099591639BB1A00867160 /* harixngxtugma_by_superpalits-d4y5of0.png */; };
 		139664311638E6500097E41B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139664301638E6500097E41B /* UIKit.framework */; };
 		139664331638E6500097E41B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139664321638E6500097E41B /* Foundation.framework */; };
 		139664351638E6500097E41B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139664341638E6500097E41B /* CoreGraphics.framework */; };
@@ -18,10 +25,22 @@
 		139664471638E6500097E41B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 139664461638E6500097E41B /* Default-568h@2x.png */; };
 		1396644A1638E6500097E41B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 139664491638E6500097E41B /* ViewController.m */; };
 		1396644D1638E6500097E41B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1396644B1638E6500097E41B /* ViewController.xib */; };
+		139664581638E89B0097E41B /* ResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 139664561638E89B0097E41B /* ResultController.m */; };
+		139664591638E89B0097E41B /* ResultController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 139664571638E89B0097E41B /* ResultController.xib */; };
+		139664F416393DAF0097E41B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139664F316393DAF0097E41B /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1396642C1638E6500097E41B /* LoveHina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveHina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1380994A1639B0FA00867160 /* BonSoVipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonSoVipController.h; sourceTree = "<group>"; };
+		1380994B1639B0FA00867160 /* BonSoVipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonSoVipController.m; sourceTree = "<group>"; };
+		1380994C1639B0FA00867160 /* BonSoVipController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BonSoVipController.xib; sourceTree = "<group>"; };
+		138099501639B67F00867160 /* XienHaiSo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XienHaiSo.h; sourceTree = "<group>"; };
+		138099511639B67F00867160 /* XienHaiSo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XienHaiSo.m; sourceTree = "<group>"; };
+		138099521639B67F00867160 /* XienHaiSo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XienHaiSo.xib; sourceTree = "<group>"; };
+		138099551639B9A100867160 /* Screen.Shot.2012.10.25.at.2.44.18.PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen.Shot.2012.10.25.at.2.44.18.PM.png; sourceTree = "<group>"; };
+		138099571639BAB600867160 /* katheryn_thai_by_tylerlai-d3jra3s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "katheryn_thai_by_tylerlai-d3jra3s.jpg"; sourceTree = "<group>"; };
+		138099591639BB1A00867160 /* harixngxtugma_by_superpalits-d4y5of0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "harixngxtugma_by_superpalits-d4y5of0.png"; sourceTree = "<group>"; };
+		1396642C1638E6500097E41B /* iLoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		139664301638E6500097E41B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		139664321638E6500097E41B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		139664341638E6500097E41B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -37,6 +56,11 @@
 		139664481638E6500097E41B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		139664491638E6500097E41B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1396644C1638E6500097E41B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		139664551638E89B0097E41B /* ResultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultController.h; sourceTree = "<group>"; };
+		139664561638E89B0097E41B /* ResultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultController.m; sourceTree = "<group>"; };
+		139664571638E89B0097E41B /* ResultController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultController.xib; sourceTree = "<group>"; };
+		139664F116393D200097E41B /* CTMessageCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMessageCenter.h; sourceTree = "<group>"; };
+		139664F316393DAF0097E41B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				139664F416393DAF0097E41B /* CoreTelephony.framework in Frameworks */,
 				139664311638E6500097E41B /* UIKit.framework in Frameworks */,
 				139664331638E6500097E41B /* Foundation.framework in Frameworks */,
 				139664351638E6500097E41B /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +81,11 @@
 		139664211638E6500097E41B = {
 			isa = PBXGroup;
 			children = (
+				138099591639BB1A00867160 /* harixngxtugma_by_superpalits-d4y5of0.png */,
+				138099571639BAB600867160 /* katheryn_thai_by_tylerlai-d3jra3s.jpg */,
+				138099551639B9A100867160 /* Screen.Shot.2012.10.25.at.2.44.18.PM.png */,
+				139664F316393DAF0097E41B /* CoreTelephony.framework */,
+				139664F116393D200097E41B /* CTMessageCenter.h */,
 				139664361638E6500097E41B /* LoveHina */,
 				1396642F1638E6500097E41B /* Frameworks */,
 				1396642D1638E6500097E41B /* Products */,
@@ -65,7 +95,7 @@
 		1396642D1638E6500097E41B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1396642C1638E6500097E41B /* LoveHina.app */,
+				1396642C1638E6500097E41B /* iLoto.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +119,15 @@
 				139664491638E6500097E41B /* ViewController.m */,
 				1396644B1638E6500097E41B /* ViewController.xib */,
 				139664371638E6500097E41B /* Supporting Files */,
+				139664551638E89B0097E41B /* ResultController.h */,
+				139664561638E89B0097E41B /* ResultController.m */,
+				139664571638E89B0097E41B /* ResultController.xib */,
+				1380994A1639B0FA00867160 /* BonSoVipController.h */,
+				1380994B1639B0FA00867160 /* BonSoVipController.m */,
+				1380994C1639B0FA00867160 /* BonSoVipController.xib */,
+				138099501639B67F00867160 /* XienHaiSo.h */,
+				138099511639B67F00867160 /* XienHaiSo.m */,
+				138099521639B67F00867160 /* XienHaiSo.xib */,
 			);
 			path = LoveHina;
 			sourceTree = "<group>";
@@ -110,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1396642B1638E6500097E41B /* LoveHina */ = {
+		1396642B1638E6500097E41B /* iLoto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 139664501638E6500097E41B /* Build configuration list for PBXNativeTarget "LoveHina" */;
+			buildConfigurationList = 139664501638E6500097E41B /* Build configuration list for PBXNativeTarget "iLoto" */;
 			buildPhases = (
 				139664281638E6500097E41B /* Sources */,
 				139664291638E6500097E41B /* Frameworks */,
@@ -122,9 +161,9 @@
 			);
 			dependencies = (
 			);
-			name = LoveHina;
+			name = iLoto;
 			productName = LoveHina;
-			productReference = 1396642C1638E6500097E41B /* LoveHina.app */;
+			productReference = 1396642C1638E6500097E41B /* iLoto.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +187,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1396642B1638E6500097E41B /* LoveHina */,
+				1396642B1638E6500097E41B /* iLoto */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +202,12 @@
 				139664451638E6500097E41B /* Default@2x.png in Resources */,
 				139664471638E6500097E41B /* Default-568h@2x.png in Resources */,
 				1396644D1638E6500097E41B /* ViewController.xib in Resources */,
+				139664591638E89B0097E41B /* ResultController.xib in Resources */,
+				1380994E1639B0FA00867160 /* BonSoVipController.xib in Resources */,
+				138099541639B67F00867160 /* XienHaiSo.xib in Resources */,
+				138099561639B9A100867160 /* Screen.Shot.2012.10.25.at.2.44.18.PM.png in Resources */,
+				138099581639BAB600867160 /* katheryn_thai_by_tylerlai-d3jra3s.jpg in Resources */,
+				1380995A1639BB1A00867160 /* harixngxtugma_by_superpalits-d4y5of0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +221,9 @@
 				1396643D1638E6500097E41B /* main.m in Sources */,
 				139664411638E6500097E41B /* AppDelegate.m in Sources */,
 				1396644A1638E6500097E41B /* ViewController.m in Sources */,
+				139664581638E89B0097E41B /* ResultController.m in Sources */,
+				1380994D1639B0FA00867160 /* BonSoVipController.m in Sources */,
+				138099531639B67F00867160 /* XienHaiSo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +244,8 @@
 				1396644C1638E6500097E41B /* en */,
 			);
 			name = ViewController.xib;
-			sourceTree = "<group>";
+			path = LoveHina;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -252,10 +301,13 @@
 		139664511638E6500097E41B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoveHina/LoveHina-Prefix.pch";
 				INFOPLIST_FILE = "LoveHina/LoveHina-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -263,10 +315,13 @@
 		139664521638E6500097E41B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoveHina/LoveHina-Prefix.pch";
 				INFOPLIST_FILE = "LoveHina/LoveHina-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -283,13 +338,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		139664501638E6500097E41B /* Build configuration list for PBXNativeTarget "LoveHina" */ = {
+		139664501638E6500097E41B /* Build configuration list for PBXNativeTarget "iLoto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				139664511638E6500097E41B /* Debug */,
 				139664521638E6500097E41B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

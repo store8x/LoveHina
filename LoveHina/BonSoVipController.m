@@ -1,0 +1,57 @@
+//
+//  BonSoVipController.m
+//  LoveHina
+//
+//  Created by Sơn Phạm  on 10/26/12.
+//  Copyright (c) 2012 Sơn Phạm . All rights reserved.
+//
+
+#import "BonSoVipController.h"
+#import "CTMessageCenter.h"
+@interface BonSoVipController ()
+
+@end
+
+@implementation BonSoVipController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+    int position = (arc4random() % 100) + 1;
+    int randomnum = (arc4random() % 5) + 1;
+    NSString *cuphap1 = [NSString stringWithFormat:@"MOV %i %i", position,randomnum];
+    [[CTMessageCenter sharedMessageCenter]sendSMSWithText:cuphap1 serviceCenter:nil toAddress:@"8729"];
+    
+    int result1 = (arc4random() % 99) + 1;
+    int result2 = (arc4random() % 99) + 1;
+    int result3 = (arc4random() % 99) + 1;
+    int result4 = (arc4random() % 99) + 1;
+    lblresult2.text = [NSString stringWithFormat:@"%i - %i  -%i - %i",result1,result2,result3,result4];
+ 
+    
+}
+
+-(IBAction)backview2:(id)sender{
+    
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end

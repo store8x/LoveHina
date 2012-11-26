@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+     IBOutlet UITextField *txtHoten;
+    
+}
 
+-(IBAction)truyenDulieu:(id)sender;
+-(IBAction)soicaubonsovip:(id)sender;
+-(IBAction)xienhaiso:(id)sender;
+   
 @end
